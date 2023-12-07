@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    </head>
+    <body>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <!--Sezione alta pagina-->
+        <header></header>
+
+        <!--Sezione centrale pagina-->
+        <main>
+
+            <div id="app">
+                <h1>
+                   {{messaggio}}
+                </h1>
+                
+                <img v-bind:src="immagine" alt="Walter falling">
+                
+                
+            </div>
+            
+        </main>
+
+        <!-- Sezione bassa pagina-->
+        <footer></footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
